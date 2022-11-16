@@ -1,4 +1,4 @@
-python>=3.8
+python>=3.7
 contourpy>=1.0.1
 cycler>=0.10.0
 dateutil>=2.7
