@@ -1,0 +1,13 @@
+python>=3.8
+contourpy>=1.0.1
+cycler>=0.10.0
+dateutil>=2.7
+fontTools>=4.22.0
+numPy>=1.19.0
+packaging>=20.0
+Pillow>=6.2
+pyparsing>=2.2.1
+setuptools
+pandas>1.5
+matplotlib>=3.5
+Tk >= 8.4, <8.6
