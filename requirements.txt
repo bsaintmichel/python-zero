@@ -1,6 +1,5 @@
 contourpy>=1.0.1
 cycler>=0.10.0
-dateutil>=2.7
 fontTools>=4.22.0
 numPy>=1.19.0
 packaging>=20.0
