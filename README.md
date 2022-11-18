@@ -11,6 +11,9 @@ Cliquez sur l'icône ci-dessous pour accéder aux tutoriels !
 --------------------------
 ## Sommaire 
 
+Les tutoriels sont divisés en des _tutoriels_ (de 1 à 4) que je conseille d'étudier dans l'ordre, puis ensuite d' __applications__ (de A à ..) qui sont assez largement indépendants les uns des autres et qui peuvent être effectués dans le désordre.
+
+### Tutoriels : la base 
 
 1. [Premiers pas, variables, booléens](./Tutorial_1_SimpleThings.ipynb) va partir de zéro et vous offrir la possibilité de :
 * créer des variables simples (entiers, flottants, chaînes de caractères)
@@ -30,6 +33,11 @@ Cliquez sur l'icône ci-dessous pour accéder aux tutoriels !
 * on se penchera sur le cas des boucles `while`
 * et on verra rapidement le rôle de l'instruction `break`
 
-3. [Bibliothèques, imports, aide](./Tutorial_4_Imports.ipynb) va vous indiquer comment ne pas réinventer la roue en utilisant des bibliothèques de fonctions que d'autres ont déjà développées.
+4. [Bibliothèques, imports, aide](./Tutorial_4_Imports.ipynb) va vous indiquer comment ne pas réinventer la roue en utilisant des bibliothèques de fonctions que d'autres ont déjà développées.
+* on commencera par la syntaxe pour appeler des modules déjà existants et utiliser leurs fonctions
+* on continuera ensuite en définissant nos propres fonctions 
+* et on terminera rapidement en créant notre propre module 
 
-3. 
+### Applications 
+
+1. [NumPy](./Application_A_Numpy_Scipy.ipynb) va vous dévoiler la puissance des modules `NumPy` et `SciPy` pour vos applications scientifiques.
