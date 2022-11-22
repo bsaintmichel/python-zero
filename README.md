@@ -1,6 +1,6 @@
 # Python Scientifique de Zéro
 
-[Brice Saint-Michel](bsaintmichel@gmail.com), Université Gustave Eiffel
+__Brice Saint-Michel__ (bsaintmichel on gmail), Université Gustave Eiffel
 
 Ici, nous allons dresser un aperçu rapide de ce que Python peut vous apporter si vous êtes physicien.ne ou physico-chimiste. Aucune connaissance n'est requise a priori : on part de zéro, même si, bien entendu, vous irez plus vite si vous connaissez déjà des langages de programmation (notamment : MATLAB). L'apprentissage s'effectue directement en manipulant vous-mêmes du code Python interactif, afin de mettre un minimum de distance entre la théorie et la mise en pratique.
 
@@ -14,13 +14,6 @@ Cliquez sur l'icône ci-dessous pour accéder aux tutoriels !
 
 ---------------------------------
 
-### Navigation : 
-
-Le contenu à l'intérieur des tutoriels est hiérarchisé, vous pouvez accéder à la structure de chacun des documents, y compris celui-ci, en cliquant sur l'onglet `Table of Contents` à gauche de votre interface
-
-![img](resources/browse_sections.gif)
-
---------------------------
 ## Sommaire 
 
 Les tutoriels sont divisés en des _tutoriels_ (de 1 à 4) que je conseille d'étudier dans l'ordre, puis ensuite d' __applications__ (de A à ..) qui sont assez largement indépendants les uns des autres et qui peuvent être effectués dans le désordre.
@@ -52,12 +45,19 @@ Les tutoriels sont divisés en des _tutoriels_ (de 1 à 4) que je conseille d'é
 
 ### Applications 
 
-1. [NumPy](./Application_A_Numpy.ipynb) va vous dévoiler la puissance du module `NumPy` pour vos applications scientifiques.
+1. [NumPy](./Application_A_Numpy.ipynb) va vous dévoiler la puissance du module `NumPy` pour vos applications numériques.
   * on commencera par introduire un nouveau type de données, les tableaux `np.ndarray`
-  * on verra ensuite les fonctions mathématiques présentes sur NumPy
+  * on verra ensuite les constantes et fonctions mathématiques présentes sur NumPy
   * on continuera avec le sous-module `random` permettant de générer des nombres aléatoires
+  * on poursuivra avec le sous-module `fft` permettant de faire des _transformées de Fourier_ discrètes
   * on terminera avec quelques fonctions _inclassables_ et utiles pour les scientifiques 
 
 2. [MatPlotLib](./Application_B_MatPlotLib.ipynb) vous permettra de tracer vos graphes préférés, voire de les animer.
 
+--------------------------
 
+## Navigation 
+
+Le contenu à l'intérieur des tutoriels est hiérarchisé, vous pouvez accéder à la structure de chacun des documents, y compris celui-ci, en cliquant sur l'onglet `Table of Contents` à gauche de votre interface.
+
+![img](resources/browse_sections.gif)
