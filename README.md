@@ -72,11 +72,8 @@ Les tutoriels sont divisés en des _tutoriels_ (de 1 à 4) que je conseille d'é
   * on regardera comment accéder aux données de ce `DataFrame` à partir de leurs lignes, colonnes ou à partir de conditions booléennes
   * on examinera enfin comment modifier ces `DataFrame` en ajoutant/supprimant une colonne/ligne, en les concaténant avec des autres `DataFrame`, ou en les triant.
 
+  ---------------------------------------
 
---------------------------
+  ## L'environnement de développement
 
-## Navigation 
-
-Le contenu à l'intérieur des tutoriels est hiérarchisé, vous pouvez accéder à la structure de chacun des documents, y compris celui-ci, en cliquant sur l'onglet `Table of Contents` à gauche de votre interface.
-
-![img](resources/browse_sections.gif)
+  Si vous voulez en savoir plus sur Binder et Jupyter Notebooks, l'environnement de développement avec lequel vous travaillez, jetez un oeil à la [FAQ](./FAQ.md).
