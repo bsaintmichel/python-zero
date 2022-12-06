@@ -52,6 +52,6 @@ Vous pouvez enfin créer des nouvelles cellulles au-dessus (_above_) de la cellu
 
 ### Convertir des cellules : du texte au code
 
-Les cellules de code peuvent être converties en cellules de texte en appuyant sur `M` __dans la navigation en cellules__. À l'inverse, vous pouvez convertir une cellule de texte en cellule de code en utilisant la touche `Y`. Dans le code suivant, j'appuie d'abord sur `M`, puis sur `Y` et enfin sur `Ctrl + Entrée` pour re-formatter proprement ma cellule de texte.
+Les cellules de code peuvent être converties en cellules de texte en appuyant sur `M` __dans la navigation en cellules__. À l'inverse, vous pouvez convertir une cellule de texte en cellule de code en utilisant la touche `Y`. Dans le code suivant, je fais d'abord un clic simple sur ma cellule et un appui sur `Y` pour formatter ma cellule de texte en code ; j'appuie ensuite sur `M` et enfin sur `Ctrl + Entrée` pour la re-formatter proprement en texte.
 
 ![img](./resources/convert_to_code.gif)

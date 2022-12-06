@@ -4,11 +4,17 @@ __Brice Saint-Michel__ (bsaintmichel on gmail), Université Gustave Eiffel
 
 Ici, nous allons dresser un aperçu rapide de ce que Python peut vous apporter si vous êtes physicien.ne ou physico-chimiste. Aucune connaissance n'est requise a priori : on part de zéro, même si, bien entendu, vous irez plus vite si vous connaissez déjà des langages de programmation (notamment : MATLAB). L'apprentissage s'effectue directement en manipulant vous-mêmes du code Python interactif, afin de mettre un minimum de distance entre la théorie et la mise en pratique.
 
+---------------------------------------
+
+### À propos de l'environnement de travail
+
+Si vous voulez en savoir plus sur Binder et Jupyter Notebooks, l'environnement de développement avec lequel vous travaillez, jetez un oeil à la [FAQ](./FAQ.md).
+
 ----------------------------------
 
 ### Accéder aux tutoriels interactifs 
 
-Cliquez sur l'icône ci-dessous pour accéder aux tutoriels !
+Cliquez sur l'icône ci-dessous pour accéder aux tutoriels, même sans avoir rien installé sur votre PC !
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bsaintmichel/PythonZero/HEAD)
 
@@ -16,9 +22,9 @@ Cliquez sur l'icône ci-dessous pour accéder aux tutoriels !
 
 ## Sommaire 
 
-Les tutoriels sont divisés en des _tutoriels_ (de 1 à 4) que je conseille d'étudier dans l'ordre, puis ensuite d' __applications__ (de A à ..) qui sont assez largement indépendants les uns des autres et qui peuvent être effectués dans le désordre.
+Les tutoriels sont divisés en des __tutoriels__ (de 1 à 6) que je conseille d'étudier dans l'ordre, puis ensuite d' __applications__ (de A à ..) qui sont assez largement indépendants les uns des autres et qui peuvent être effectués dans le désordre.
 
-### Tutoriels : la base 
+### La base 
 
 1. [Premiers pas, variables, booléens](./Tutorial_1_SimpleThings.ipynb) va partir de zéro et vous offrir la possibilité de :
 * créer des variables simples (entiers, flottants, chaînes de caractères)
@@ -33,8 +39,8 @@ Les tutoriels sont divisés en des _tutoriels_ (de 1 à 4) que je conseille d'é
 * on examinera enfin la notion de _mutabilité_ d'objets en Python.
 
 3. [Boucles, conditions, ](./Tutorial_3_Loops.ipynb) vous libérera des tâches répétitives en les incluant dans une, ou plusieurs boucles !
-* on commencera par la boucle `for`, qui introduira également l'usage des objets `range` et `enumerate`
-* on verra ensuite le bloc d'instructions `if ... else`
+* on commencera par la boucle `for`, qui introduira également les objets `range` et `enumerate`
+* on verra ensuite le bloc d'instructions conditionnel `if ... else`
 * on se penchera sur le cas des boucles `while`
 * et on verra rapidement le rôle de l'instruction `break`
 
@@ -49,31 +55,37 @@ Les tutoriels sont divisés en des _tutoriels_ (de 1 à 4) que je conseille d'é
 * on s'intéressera ensuite au module `os` qui permet de changer de répertoire de travail et d'en créer
 * on verra enfin le module `glob` qui permet d'effectuer une recherche de fichiers et de dossiers.
 
-### Applications 
+6. [Quelques astuces supplémentaires](./Tutorial_6_Extras.ipynb) va vous simplifier la vie en Python et vous permettre de travailler depuis votre PC en _hors-ligne_ (ou presque):
+* On cmmencera par les affectations multiples pour économiser des lignes de code.
+* On apprendra à formater joliment les nombres quand on les convertit en chaînes de caractère.
+* On découvrira les _listes en compréhension_ pour rendre son code plus élégant.
+* On évoquera la fonction `zip()` qui permet de boucler sur plusieurs éléments. 
+* On verra enfin comment __installer Python sur votre PC__ avec Anaconda ou Python & VSCode.
 
-1. [NumPy](./Application_A_Numpy.ipynb) va vous dévoiler la puissance du module `NumPy` pour vos applications numériques.
+
+### Les applications 
+
+A. [Numpy](./Application_A_Numpy.ipynb) va vous dévoiler la puissance du module Numpy pour vos applications numériques.
   * on commencera par introduire un nouveau type de données, les tableaux `np.ndarray`
-  * on verra ensuite les constantes et fonctions mathématiques présentes sur NumPy
-  * on évoquera avec quelques fonctions _inclassables_ et utiles pour les scientifiques 
-  * on parlera des nombreuses fonctions d'algèbre et une méthode de régression linéaire avec le sous-module `linalg` 
+  * on verra ensuite les constantes et fonctions mathématiques présentes sur Numpy
+  * on évoquera quelques fonctions _inclassables_ et utiles pour les scientifiques 
+  * on parlera des fonctions d'algèbre et de régression linéaire avec le sous-module `linalg` 
   * on continuera avec le sous-module `random` permettant de générer des nombres aléatoires
   * on poursuivra avec le sous-module `fft` permettant de faire des _transformées de Fourier_ discrètes
 
-2. [MatPlotLib](./Application_B_MatPlotLib.ipynb) vous permettra de tracer vos graphes préférés, voire de les animer.
+B. [MatPlotLib](./Application_B_MatPlotLib.ipynb) vous permettra de tracer vos graphes préférés, voire de les animer.
 
-3. [SciPy](./Application_C_Scipy) commence là où s'arrête `Numpy`, et est très puissant pour le traitement de signal et la résolution numérique de problèmes
-  * on commencera par évoquer les possibilité de corrélations, convolutions et filtres et recherche de maxima locaux dans le sous-module `signal`
-  * on s'intéressera ensuite aux fonctions permettant d'interpoler un signal existant avec le sous-module `interpolate`
-  * on verra comment optimiser un résultat ou trouver le zéro d'une fonction avec le sous-module `optimize`
+C. [SciPy](./Application_C_Scipy) commence là où s'arrête `Numpy`, et est très puissant pour le traitement de signal et la résolution numérique de problèmes
+  * on parlera corrélations, convolutions, filtres et recherche de maxima locaux dans le sous-module `signal`
+  * on verra ensuite les fonctions qui interpolent un signal dans le sous-module `interpolate`
+  * on minimisera/maximiera une fonction et on trouvera leurs zéros avec `optimize`
   * on étudiera ensuite comment résoudre une équation différentielle avec le sous-module `integrate`
 
-4. [Pandas](./Application_D_Pandas.ipynb) vous permettra d'apprivoiser les `DataFrame`, une nouvelle classe qui s'apparente à un tablaeu Excel
-  * on verra comment créer ces `DataFrame` _ex nihilo_ ou à partir de fichiers texte de données formatés (`.csv` ou `.xlsx`)
-  * on regardera comment accéder aux données de ce `DataFrame` à partir de leurs lignes, colonnes ou à partir de conditions booléennes
+D. [Pandas](./Application_D_Pandas.ipynb) vous permettra d'apprivoiser les `DataFrame`, une nouvelle classe qui s'apparente aux tableaux Excel
+  * on verra comment créer ces `DataFrame` _ex nihilo_ ou à partir de fichiers texte (`.csv` ou `.xlsx`)
+  * on accèdera aux données des `DataFrame` via leurs lignes, colonnes ou selon des conditions
   * on examinera enfin comment modifier ces `DataFrame` en ajoutant/supprimant une colonne/ligne, en les concaténant avec des autres `DataFrame`, ou en les triant.
 
-  ---------------------------------------
+E. [Scikit-Image](./Application_E_ScikitImage.ipynb) vous montrera comment manipuler, traiter et extraire le plus possible de données de vos images.
 
-  ## L'environnement de développement
-
-  Si vous voulez en savoir plus sur Binder et Jupyter Notebooks, l'environnement de développement avec lequel vous travaillez, jetez un oeil à la [FAQ](./FAQ.md).
+F. [Trackpy](./Application_F_PIV_Tracking.ipynb) vous dira enfin comment calculer des champs de vitesse à partir de séquences d'images et comment détecter puis suivre des particules individuelles dans les images.
