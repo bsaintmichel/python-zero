@@ -74,6 +74,11 @@ A. [Numpy](./Application_A_Numpy.ipynb) va vous dévoiler la puissance du module
   * on poursuivra avec le sous-module `fft` permettant de faire des _transformées de Fourier_ discrètes
 
 B. [MatPlotLib](./Application_B_MatPlotLib.ipynb) vous permettra de tracer vos graphes préférés, voire de les animer.
+  * je commencerai avec quelques généralités sur la structure des figures en Matplotlib
+  * on verra ensuite, pour ceux qui sont pressés, comment tracer une figure _vite fait mal fait_
+  * on continuera avec les méthodes permettant de modifier et de personnaliser vos figures
+  * on s'intéressera ensuite à quelques tracés bien particuliers : images, aires entre courbes, histogrammes, nuages de points complexes, et surfaces 3d
+  * on examinera enfin comment faire des tracés animés et interactifs _sous JuPyter_
 
 C. [SciPy](./Application_C_Scipy) commence là où s'arrête `Numpy`, et est très puissant pour le traitement de signal et la résolution numérique de problèmes
   * on parlera corrélations, convolutions, filtres et recherche de maxima locaux dans le sous-module `signal`
