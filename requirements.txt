@@ -8,3 +8,4 @@ matplotlib==3.2.1
 numpy==1.22.0
 pandas==1.4.0
 openpyxl==3.0.10
+ipympl==0.8.8
