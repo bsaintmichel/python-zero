@@ -84,8 +84,9 @@ B. [MatPlotLib](./Application_B_MatPlotLib.ipynb) vous permettra de tracer vos g
 C. [SciPy](./Application_C_Scipy) commence là où s'arrête `Numpy`, et est très puissant pour le traitement de signal et la résolution numérique de problèmes
   * on parlera corrélations, convolutions, filtres et recherche de maxima locaux dans le sous-module `signal`
   * on verra ensuite les fonctions qui interpolent un signal dans le sous-module `interpolate`
-  * on minimisera/maximiera une fonction et on trouvera ses zéros avec `optimize`
+  * on minimisera/maximisera une fonction, on trouvera ses zéros et on fittera des courbes avec `optimize`
   * on étudiera ensuite comment résoudre une équation différentielle avec le sous-module `integrate`
+  * on traitera enfin quelques options sympathiques, comme par exemple _ouvrir un fichier .mat de MATLAB_, ou faire une intégration avec la méthode des trapèzes !
 
 D. [Pandas](./Application_D_Pandas.ipynb) vous permettra d'apprivoiser les `DataFrame`, une nouvelle classe qui s'apparente aux tableaux Excel
   * on verra comment créer ces `DataFrame` _ex nihilo_ ou à partir de fichiers texte (`.csv` ou `.xlsx`)
