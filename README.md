@@ -62,37 +62,43 @@ Les tutoriels sont divisés en des __tutoriels__ (de 1 à 6) que je conseille d'
 * On évoquera la fonction `zip()` qui permet de boucler sur plusieurs éléments. 
 * On verra enfin comment __installer Python sur votre PC__ avec Anaconda ou Python & VSCode.
 
-
 ### Les applications 
 
 A. [Numpy](./Application_A_Numpy.ipynb) va vous dévoiler la puissance du module Numpy pour vos applications numériques.
-  * on commencera par introduire un nouveau type de données, les tableaux `np.ndarray`
-  * on verra ensuite les constantes et fonctions mathématiques présentes sur Numpy
-  * on évoquera quelques fonctions _inclassables_ et utiles pour les scientifiques 
-  * on parlera des fonctions d'algèbre et de régression linéaire avec le sous-module `linalg` 
-  * on continuera avec le sous-module `random` permettant de générer des nombres aléatoires
-  * on poursuivra avec le sous-module `fft` permettant de faire des _transformées de Fourier_ discrètes
+  * on commencera par introduire un nouveau type de données, les tableaux `np.ndarray`.
+  * on verra ensuite les constantes et fonctions mathématiques présentes sur Numpy.
+  * on évoquera quelques fonctions _inclassables_ et utiles pour les scientifiques .
+  * on parlera des fonctions d'algèbre et de régression linéaire avec le sous-module `linalg` .
+  * on continuera avec le sous-module `random` permettant de générer des nombres aléatoires.
+  * on poursuivra avec le sous-module `fft` permettant de faire des _transformées de Fourier_ discrètes.
 
-B. [MatPlotLib](./Application_B_MatPlotLib.ipynb) vous permettra de tracer vos graphes préférés, voire de les animer.
-  * je commencerai avec quelques généralités sur la structure des figures en Matplotlib
-  * on verra ensuite, pour ceux qui sont pressés, comment tracer une figure _vite fait mal fait_
-  * on continuera avec les méthodes permettant de modifier et de personnaliser vos figures
-  * on s'intéressera ensuite à quelques tracés bien particuliers : images, aires entre courbes, histogrammes, nuages de points complexes, et surfaces 3d
-  * j'indiquerai comment exporter ses figures proprement au format `.png`, `.pdf`, mais également `.tex`
-  * on examinera enfin comment faire des tracés animés et interactifs
+B. [Matplotlib](./Application_B_MatPlotLib.ipynb) vous permettra de tracer vos graphes préférés, voire de les animer.
+  * je commencerai avec quelques généralités sur la structure des figures en Matplotlib.
+  * on verra ensuite, pour ceux qui sont pressés, comment tracer une figure _vite fait mal fait_.
+  * on continuera avec les méthodes permettant de modifier et de personnaliser vos figures.
+  * on s'intéressera ensuite à quelques tracés bien particuliers : images, aires entre courbes, histogrammes, nuages de points complexes, et surfaces 3d.
+  * j'indiquerai comment exporter ses figures proprement au format `.png`, `.pdf`, mais également `.tex`.
+  * on examinera enfin comment faire des tracés animés et interactifs.
 
-C. [SciPy](./Application_C_Scipy) commence là où s'arrête `Numpy`, et est très puissant pour le traitement de signal et la résolution numérique de problèmes
-  * on parlera corrélations, convolutions, filtres et recherche de maxima locaux dans le sous-module `signal`
-  * on verra ensuite les fonctions qui interpolent un signal dans le sous-module `interpolate`
-  * on minimisera/maximisera une fonction, on trouvera ses zéros et on fittera des courbes avec `optimize`
-  * on étudiera ensuite comment résoudre une équation différentielle avec le sous-module `integrate`
+C. [Scipy](./Application_C_Scipy) commence là où s'arrête `Numpy`, et est très puissant pour le traitement de signal et la résolution numérique de problèmes
+  * on parlera corrélations, convolutions, filtres et recherche de maxima locaux dans le sous-module `signal`.
+  * on verra ensuite les fonctions qui interpolent un signal dans le sous-module `interpolate`.
+  * on minimisera/maximisera une fonction, on trouvera ses zéros et on fittera des courbes avec `optimize`.
+  * on étudiera ensuite comment résoudre une équation différentielle avec le sous-module `integrate`.
   * on traitera enfin quelques options sympathiques, comme par exemple _ouvrir un fichier .mat de MATLAB_, ou faire une intégration avec la méthode des trapèzes !
 
 D. [Pandas](./Application_D_Pandas.ipynb) vous permettra d'apprivoiser les `DataFrame`, une nouvelle classe qui s'apparente aux tableaux Excel
-  * on verra comment créer ces `DataFrame` _ex nihilo_ ou à partir de fichiers texte (`.csv` ou `.xlsx`)
-  * on accèdera aux données des `DataFrame` via leurs lignes, colonnes ou selon des conditions
+  * on verra comment créer ces `DataFrame` _ex nihilo_ ou à partir de fichiers texte (`.csv` ou `.xlsx`).
+  * on accèdera aux données des `DataFrame` via leurs lignes, colonnes ou selon des conditions.
   * on examinera enfin comment modifier ces `DataFrame` en ajoutant/supprimant une colonne/ligne, en les concaténant avec des autres `DataFrame`, ou en les triant.
 
-E. [Scikit-Image](./Application_E_ScikitImage.ipynb) vous montrera comment manipuler, traiter et extraire le plus possible de données de vos images.
+E. [Scikit-Image](./Application_E_ScikitImage.ipynb) vous montrera comment manipuler, traiter et extraire le plus possible de données de vos images, via _trois exemples_:
+  * le premier exemple consiste à détecter des bulles et va introduire le seuil d'Ōtsu, les méthodes d'étiquetage (`label()` et `regionprops_table()`) et la dilatation morphologique d'une image binaire.
+  * le deuxième exemple va tenter de détecter des particules et va utiliser pour cela du contraste adaptatif ([CLAHE](https://en.wikipedia.org/wiki/Adaptive_histogram_equalization#CLAHE)), des cartes de distance et une routine de _watershed_ avant d'étiqueter l'image.
+  * le troisième exemple traitera enfin de détection d'images en utilisant un filtre de Canny ainsi qu'une transformée de Hough circulaire.
 
-F. [Trackpy](./Application_F_PIV_Tracking.ipynb) vous dira enfin comment calculer des champs de vitesse à partir de séquences d'images et comment détecter puis suivre des particules individuelles dans les images.
+F. [Trackpy et OpenPIV](./Application_F_PIV_Tracking.ipynb) vous dira enfin comment calculer des champs de vitesse à partir de séquences d'images et comment détecter puis suivre des particules individuelles dans les images.
+  * on verra en premier comment détecter des particules sur une image (encore !) sous `trackpy` avec l'algorithme de Crocker et Grier.
+  * on regardera ensuite le dépouillement d'images multiples avec `trackpy.batch` et le suivi de particules avec `trackpy.link()`.
+  * on s'intéressera enfin aux calculs de champs de vitesse par PIV avec `openPIV`.
+  * je terminerai avec un exemple plus compliqué combinant les deux approches ce qui permet de suivre des particules qui bougent collectivement sur des assez grandes distances.
