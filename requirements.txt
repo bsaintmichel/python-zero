@@ -4,9 +4,14 @@
 #
 #    pip-compile
 #
-matplotlib==3.2.1
-numpy==1.22.0
+matplotlib==3.6.3
+numpy==1.20.3
+scipy==1.10.0
 pandas==1.4.0
 openpyxl==3.0.10
 ipympl==0.8.8
+pyyaml==6.0
 tikzplotlib==0.10.1
+scikit-image==0.18.3
+trackpy==0.5.0
+openpiv==0.25.0
