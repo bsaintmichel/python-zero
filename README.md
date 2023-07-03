@@ -44,7 +44,7 @@ Les tutoriels sont divisés en des __tutoriels__ (de 1 à 6) que je conseille d'
 * on se penchera sur le cas des boucles `while`
 * et on verra rapidement le rôle de l'instruction `break`
 
-4. [Bibliothèques, imports, aide](./Tutorial_4_Imports.ipynb) va vous indiquer comment ne pas réinventer la roue en utilisant des bibliothèques de fonctions que d'autres ont déjà développées.
+4. [Bibliothèques, imports, aide](./Tutorial_4_Imports_functions.ipynb) va vous indiquer comment ne pas réinventer la roue en utilisant des bibliothèques de fonctions que d'autres ont déjà développées.
 * on commencera par la syntaxe pour appeler des modules déjà existants et utiliser leurs fonctions
 * on continuera ensuite en définissant nos propres fonctions 
 * et on terminera rapidement en créant notre propre module 
@@ -72,7 +72,7 @@ A. [Numpy](./Application_A_Numpy.ipynb) va vous dévoiler la puissance du module
   * on continuera avec le sous-module `random` permettant de générer des nombres aléatoires.
   * on poursuivra avec le sous-module `fft` permettant de faire des _transformées de Fourier_ discrètes.
 
-B. [Matplotlib](./Application_B_MatPlotLib.ipynb) vous permettra de tracer vos graphes préférés, voire de les animer.
+B. [Matplotlib](./Application_B_Matplotlib.ipynb) vous permettra de tracer vos graphes préférés, voire de les animer.
   * je commencerai avec quelques généralités sur la structure des figures en Matplotlib.
   * on verra ensuite, pour ceux qui sont pressés, comment tracer une figure _vite fait mal fait_.
   * on continuera avec les méthodes permettant de modifier et de personnaliser vos figures.
@@ -80,7 +80,7 @@ B. [Matplotlib](./Application_B_MatPlotLib.ipynb) vous permettra de tracer vos g
   * j'indiquerai comment exporter ses figures proprement au format `.png`, `.pdf`, mais également `.tex`.
   * on examinera enfin comment faire des tracés animés et interactifs.
 
-C. [Scipy](./Application_C_Scipy) commence là où s'arrête `Numpy`, et est très puissant pour le traitement de signal et la résolution numérique de problèmes
+C. [Scipy](./Application_C_Scipy.ipynb) commence là où s'arrête `Numpy`, et est très puissant pour le traitement de signal et la résolution numérique de problèmes
   * on parlera corrélations, convolutions, filtres et recherche de maxima locaux dans le sous-module `signal`.
   * on verra ensuite les fonctions qui interpolent un signal dans le sous-module `interpolate`.
   * on minimisera/maximisera une fonction, on trouvera ses zéros et on fittera des courbes avec `optimize`.
