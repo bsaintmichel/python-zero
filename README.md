@@ -90,7 +90,9 @@ C. [Scipy](./Application_C_Scipy.ipynb) commence là où s'arrête `Numpy`, et e
 D. [Pandas](./Application_D_Pandas.ipynb) vous permettra d'apprivoiser les `DataFrame`, une nouvelle classe qui s'apparente aux tableaux Excel
   * on verra comment créer ces `DataFrame` _ex nihilo_ ou à partir de fichiers texte (`.csv` ou `.xlsx`).
   * on accèdera aux données des `DataFrame` via leurs lignes, colonnes ou selon des conditions.
-  * on examinera enfin comment modifier ces `DataFrame` en ajoutant/supprimant une colonne/ligne, en les concaténant avec des autres `DataFrame`, ou en les triant.
+  * on examinera enfin comment modifier ces `DataFrame` en ajoutant/supprimant une colonne/ligne
+  * on jettera un oeil aux opérations de groupe, notamment aux méthodes `.groupby()` et `.agg()`
+  * on regardera enfin comment fusionner deux `DataFrame`, que ce soit par un `.merge()`, un `.join()` et un `.concat()` 
 
 E. [Scikit-Image](./Application_E_ScikitImage.ipynb) vous montrera comment manipuler, traiter et extraire le plus possible de données de vos images, via _trois exemples_:
   * le premier exemple consiste à détecter des bulles et va introduire le seuil d'Ōtsu, les méthodes d'étiquetage (`label()` et `regionprops_table()`) et la dilatation morphologique d'une image binaire.
